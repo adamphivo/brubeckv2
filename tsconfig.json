@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "commonjs",
+    "declaration": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "exclude": ["ecosystem.config.js"],
+  "files": [],
+  "references": [
+    { "path": "./packages/common" },
+    { "path": "./packages/gather" },
+    { "path": "./packages/persist" },
+    { "path": "./packages/stream" }
+  ]
+}
